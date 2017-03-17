@@ -1,5 +1,5 @@
 # MagicMirror Module: MMM-Homematic-Heaters
-A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b>
+A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats of type: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b>
 
 ### The module displays the following information:
 
@@ -89,7 +89,7 @@ The following properties can be configured:
           </tr>
           <tr>
            <td><code>label</code></td>
-           <td>The label for the device (i.e.: Living Room). If not present or empty the internal device name will shown.</td>
+           <td>The label for the device (i.e.: Living Room). If not present or empty, the internal device name is shown instead.</td>
           </tr>
           <tr>
            <td><code>showSetTemperature</code></td>
