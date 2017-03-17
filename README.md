@@ -9,6 +9,8 @@ A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermos
 * The current mode
 * The fault reporting (i.e. low battery), if any
 
+Supported languages are: English, Deutsch
+
 ## Pre-requisites
 The following additional tools are required and must be installed to be able to display the information:
 * <a href="https://github.com/hobbyquaker/XML-API" target="_blank" title="XML-API for CCU2">XML-API addon</a><br/>The XML-API addon must be installed on your Homematic central control unit (CCU1 / CCU2). 
@@ -123,3 +125,6 @@ Make sure the the XML-API addon is working fine. If you setup the addon and your
 
 ## Side notes
 The requests via the XML-API addon does not require a login! If your HomeMatic control central unit is accessible without special protection via the Internet, this can be a serious security issue!
+
+## Next steps
+I'm planning to implement my HomeMatic window handles with the module to show the window state (open, closed). The window handles are of type <a href="http://amzn.to/2mCxxjU" target="_blank">HM-Sec-RHS</a>.
