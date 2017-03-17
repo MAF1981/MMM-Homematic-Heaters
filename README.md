@@ -75,7 +75,36 @@ The following properties can be configured:
 	<tbody>
     <tr>
       <td><code>devices</code></td>
-      <td><b>Required</b> - Add all your devices that should appear in the MagicMirror. Each device must include the following properties:
+      <td><b>Required</b> - Add all your devices that should appear in the MagicMirror. Each device must include the following properties:      <table width="100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th width="100%">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+           <td><code>id</code></td>
+           <td>The unique <code>ise_id</code> to identify the device. All ids can be extracted by calling the following URL of the XML-API addon: <code>http://ccu2IP/xmlapiURL/devicelist.cgi</code></td>
+          </tr>
+          <tr>
+           <td><code>label</code></td>
+           <td>The label for the device (i.e.: Living Room). If not present or empty the internal device name will shown.</td>
+          </tr>
+          <tr>
+           <td><code>showSetTemperature</code></td>
+           <td>Whether to show or to hide the target temperature. Default is <code>false</code></td>
+          </tr>
+          <tr>
+           <td><code>showCurrentMode</code></td>
+           <td>Whether to show or to hide the current state (i.e.: Heater off). Default is <code>true</code></td>
+          </tr>	
+          <tr>
+           <td><code>showFaultReporting</code></td>
+           <td>Whether to show or to hide any faults of the device (i.e.: Low battery warning). Default is <code>true</code></td>
+          </tr>	
+        </tbody>
+      </table>
       </td>
 		</tr>
     <tr>
