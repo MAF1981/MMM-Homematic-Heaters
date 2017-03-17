@@ -1,5 +1,5 @@
 # MagicMirror Module: MMM-Homematic-Heaters
-A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats: <b>HM-CC-RT-DN</b>
+A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b>
 
 ### The module displays the following information:
 
