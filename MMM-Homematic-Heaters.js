@@ -5,7 +5,7 @@ Module.register("MMM-Homematic-Heaters",{
 		devices: [], 
         ccu2IP: "homematic-ccu2",
 		xmlapiURL: "config/xmlapi",
-		updateInterval: 120000
+		updateInterval: 300000  //5min
     },
 	
 	homematicUrl: "",
