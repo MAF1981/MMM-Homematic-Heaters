@@ -11,6 +11,20 @@ A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermos
 
 Supported languages are: English, Deutsch
 
+## Screenshots
+Default screen:
+<p><img src="https://cloud.githubusercontent.com/assets/26480749/24048049/ee2f90c2-0b27-11e7-80d8-8f232328f8a1.png" width="400"/></p>
+
+Default screen with a fault message:
+<p><img src="https://cloud.githubusercontent.com/assets/26480749/24048628/c636b6e8-0b29-11e7-9a2d-ce471f058b35.png" width="400"/></p>
+
+Screen with parameter <code>showSetTemperature: true</code> and <code>showCurrentMode: true</code> for all devices:
+<p><img src="https://cloud.githubusercontent.com/assets/26480749/24048629/c637fd1e-0b29-11e7-95c4-c4ae390f1912.png" width="400"/></p>
+
+Screen with parameter <code>showCurrentMode: false</code> and <code>showSetTemperature: false</code> for all devices:
+<p><img src="https://cloud.githubusercontent.com/assets/26480749/24048630/c63a891c-0b29-11e7-9639-1677d08c5781.png" width="400"/></p>
+
+
 ## Pre-requisites
 The following dependencies are required and must be installed to be able to use this module:
 * <a href="https://github.com/MichMich/MagicMirror" target="_blank" title="MagicMirror2">MagigMirror<sup>2</sup></a><br/>
