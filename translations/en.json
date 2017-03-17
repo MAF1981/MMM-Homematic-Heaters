@@ -1,0 +1,24 @@
+{
+	/* GENERAL */
+	"OFF" : "aus",
+	"ON" : "an",
+	"TO" : "to",
+	"WARNING" : "Attention: ",
+	"RADIATOR_OFF" : "Heater off",
+	"RADIATOR_ON" : "Heater on",
+	"HEATS_WITH" : "heats with",
+	"HEATS_TO" : "heats to",
+	"HEATING" : "heating",
+	"HEATS_UPTO" : "up to",
+	"HOLIDAY_MODE_UNTIL" : "till",
+	
+	/* RADIATOR MODES */
+	"RADIATOR_MODE_AUTO" : "auto",
+	"RADIATOR_MODE_MANUAL" : "manually",
+	"RADIATOR_MODE_PARTY" : "Holiday mode",
+	"RADIATOR_MODE_BOOST" : "Boost",
+	
+	/* FAULT REPORTING */
+	"LOWBAT" : "Low battery!",
+	"COMMUNICATION_ERROR": "Communication error"
+}

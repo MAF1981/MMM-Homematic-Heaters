@@ -1,0 +1,24 @@
+{
+	/* GENERAL */
+	"OFF" : "aus",
+	"ON" : "an",
+	"TO" : "bis",
+	"WARNING" : "Achtung: ",
+	"RADIATOR_OFF" : "Heizung aus",
+	"RADIATOR_ON" : "Heizung an",
+	"HEATS_WITH" : "heizt mit",
+	"HEATS_TO" : "heizt auf",
+	"HEATING" : "heizt",
+	"HEATS_UPTO" : "auf",
+	"HOLIDAY_MODE_UNTIL" : "bis",
+	
+	/* RADIATOR MODES */
+	"RADIATOR_MODE_AUTO" : "automatisch",
+	"RADIATOR_MODE_MANUAL" : "manuell",
+	"RADIATOR_MODE_PARTY" : "Urlaubsmodus",
+	"RADIATOR_MODE_BOOST" : "Boost",
+	
+	/* FAULT REPORTING */
+	"LOWBAT" : "Batteriestand niedrig!",
+	"COMMUNICATION_ERROR": "Kommunikationsfehler"
+}
