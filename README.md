@@ -35,13 +35,13 @@ To use this module, add it to the modules array in the `config/config.js` file:
 modules: [
  {
     module: 'MMM-Homematic-Heaters',
-    header: 'Myhome: Heaters', //The headline for the section
+    header: 'Myhome: Heaters',
     position: 'top_left', // This can be any of the regions.
     config: {
       devices: [
         {
-         id: '1241',
-         label: 'Kid\'s Room',
+         id: '1112',
+         label: 'Living Room',
          showSetTemperature: false,
          showCurrentMode: true,
          showFaultReporting: true
@@ -72,7 +72,7 @@ The following properties can be configured:
       <td><b>Required</b> - Add all your devices that should appear in the MagicMirror. Each device must include the following properties:      <table width="100%">
         <thead>
           <tr>
-            <th>Name</th>
+            <th>Option</th>
             <th width="100%">Description</th>
           </tr>
         </thead>
@@ -103,12 +103,12 @@ The following properties can be configured:
 		</tr>
     <tr>
 			<td><code>ccu2IP</code></td>
-			<td><b>Optional</b></code> - The IP address of your Homematic central control unit.
+			<td><b>Optional</b></code> - The IP address of your HomeMatic central control unit.
 <br/>If not set, the default is: <code>homematic-ccu2</code></td>
 		</tr>
         <tr>
 			<td><code>xmlapiURL</code></td>
-			<td><b>Optional</b></code> - The URL to the XML-API addon on your Homematic central control unit. Is appended to <code>ccu2IP</code>.<br/>If not set, the default is: <code>config/xmlapi</code></td>
+			<td><b>Optional</b></code> - The URL to the XML-API addon on your HomeMatic central control unit. Is appended to <code>ccu2IP</code>.<br/>If not set, the default is: <code>config/xmlapi</code></td>
 		</tr>
         <tr>
             <td><code>updateInterval</code></td>
@@ -119,7 +119,7 @@ If not set, the default is: <code>300000</code> (5 minutes)</td>
 </table>
 
 ## Troubleshooting
-Make sure the the XML-API addon is working fine. If you setup the addon and your Homematic central control unit with default values, you should be able to see a list of all your connected devices by clicking the following URL: <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a>
+Make sure the the XML-API addon is working fine. If you setup the addon and your HomeMatic central control unit with default values, you should be able to see a list of all your connected devices by clicking the following URL: <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a>
 
 ## Side notes
 The requests via the XML-API addon does not require a login! If your HomeMatic control central unit is accessible without special protection via the Internet, this can be a serious security issue!
