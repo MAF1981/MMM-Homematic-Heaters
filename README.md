@@ -12,7 +12,9 @@ A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermos
 Supported languages are: English, Deutsch
 
 ## Pre-requisites
-The following additional tools are required and must be installed to be able to display the information:
+The following dependencies are required and must be installed to be able to use this module:
+* <a href="https://github.com/MichMich/MagicMirror" target="_blank" title="MagicMirror2">MagigMirror<sup>2</sup></a><br/>
+Obviously yes... without the mirror even this module is useless :-)
 * <a href="https://github.com/hobbyquaker/XML-API" target="_blank" title="XML-API for CCU2">XML-API addon</a><br/>The XML-API addon must be installed on your Homematic central control unit (CCU1 / CCU2). 
 * <a href="https://github.com/jindw/xmldom" target="_blank" title="xmldom for node.js">xmldom</a><br/>The xmldom DOMParser and XMLSerializer must be installed for node.js
 * <a href="https://github.com/ashtuchkin/iconv-lite" target="_blank" title="iconv-lite for node.js">iconv-lite</a><br/>The iconv-lite is required to deal with the correct character encoding <code>iso-8859-1</code> (i.e.: German umlauts ä ü ö) after receiving data via the XML-API.
