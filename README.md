@@ -85,7 +85,7 @@ The following properties can be configured:
         <tbody>
           <tr>
            <td><code>id</code></td>
-           <td>The unique <code>ise_id</code> to identify the device. All ids can be extracted by calling the following URL of the XML-API addon: <code>http://ccu2IP/xmlapiURL/devicelist.cgi</code></td>
+           <td>The unique <code>ise_id</code> to identify the device. All ids can be extracted by calling the following URL of the installed XML-API addon: <code>http://ccu2IP/xmlapiURL/devicelist.cgi</code></td>
           </tr>
           <tr>
            <td><code>label</code></td>
