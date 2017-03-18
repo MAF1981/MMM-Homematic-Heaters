@@ -17,7 +17,8 @@ According documentation, it should also work with devices of type HM-CC-RT-DN-Bo
 Supported languages are: English, Deutsch
 			</td>
 			<td>
-			<img src="https://cloud.githubusercontent.com/assets/26480749/24071185/4b4e2b02-0bcc-11e7-8b22-28a9d60bc402.jpg" border="0" height="200px">
+			<img src="https://cloud.githubusercontent.com/assets/26480749/24071459/8d6b75ac-0bd2-11e7-9685-9817bfea7f00.jpg" border="0" height="250px"><br>
+			<span style="font-size:8pt;">Picture: &copy; MAF1981, private</small></span>
 			</td>
 		</tr>
 	</tbody>
