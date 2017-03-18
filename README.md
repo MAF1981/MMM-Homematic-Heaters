@@ -28,11 +28,12 @@ Supported languages are: English, Deutsch
 		</tr>
 		<tr>
 			<td>
-				Default screen where heater in Kid's room is in manually mode:
+Example: Heater in Kid's room is in manually mode:
 				<p><img src="https://cloud.githubusercontent.com/assets/26480749/24070241/a1463d8c-0bb9-11e7-9b17-1ec5aaa29f73.png" height="150"/></p>
 			</td>
 			<td>
-			&nbsp;
+Example: Heater in Kid's room is in holiday mode (party mode in terms of HomeMatic):
+				<p><img src="https://cloud.githubusercontent.com/assets/26480749/24070845/38182062-0bc5-11e7-9fef-0ef139fc7e24.png" height="150"/></p>
 			</td>
 		</tr>
 		<tr>
@@ -47,13 +48,15 @@ Minimalistic screen:<p><code>showSetTemperature: false</code><br> <code>showCurr
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td colspan="2">
 If you prefer it more colorful, just change the stylesheet...<p><img src="https://cloud.githubusercontent.com/assets/26480749/24070539/c0da85f8-0bbf-11e7-85ba-f03917709805.png" height="150"/></p>
 			</td>
-			<td>
-			&nbsp;
-			</td>
 		</tr>
+		<tr>
+			<td colspan="2">
+Finally, how it looks like in German language:<p><img src="https://cloud.githubusercontent.com/assets/26480749/24070940/0b329e68-0bc7-11e7-9ff2-db339e0ee64e.png" height="150"/></p>
+			</td>
+		</tr>		
 	</tbody>
 </table>
 
