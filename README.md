@@ -1,5 +1,6 @@
 # MagicMirror Module: MMM-Homematic-Heaters
-A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats of type: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b>
+A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats of type: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b><br>
+According documentation, it should also work with devices of type HM-CC-RT-DN-BoM.
 
 ### The module displays the following information:
 
@@ -36,11 +37,21 @@ Supported languages are: English, Deutsch
 		</tr>
 		<tr>
 			<td>
-Screen showing all information: <p><code>showSetTemperature: true</code><br><code>showCurrentMode: true</code></p>
-<p><img src="https://cloud.githubusercontent.com/assets/26480749/24048629/c637fd1e-0b29-11e7-95c4-c4ae390f1912.png" height="150"/></p>
+Screen showing all information: <p><code>showSetTemperature: true</code><br><code>showCurrentMode: true</code><br>
+<code>showFaultReporting: true</code></p>
+<p><img src="https://cloud.githubusercontent.com/assets/26480749/24070524/6927f9da-0bbf-11e7-815b-b7786317b8d1.png" height="150"/></p>
 			</td>
 			<td>
-Minimalistic screen:<p><code>showSetTemperature: false</code><br> <code>showCurrentMode: false</code></p><p><img src="https://cloud.githubusercontent.com/assets/26480749/24048630/c63a891c-0b29-11e7-9639-1677d08c5781.png" height="150"/></p>
+Minimalistic screen:<p><code>showSetTemperature: false</code><br> <code>showCurrentMode: false</code><br>
+<code>showFaultReporting: false</code></p><p><img src="https://cloud.githubusercontent.com/assets/26480749/24048630/c63a891c-0b29-11e7-9639-1677d08c5781.png" height="150"/></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+If you prefer it more colorful, just change the stylesheet...<p><img src="https://cloud.githubusercontent.com/assets/26480749/24070539/c0da85f8-0bbf-11e7-85ba-f03917709805.png" height="150"/></p>
+			</td>
+			<td>
+			&nbsp;
 			</td>
 		</tr>
 	</tbody>
@@ -165,3 +176,8 @@ The requests via the XML-API addon does not require a login! If your HomeMatic c
 
 ## Next steps
 I'm planning to implement my HomeMatic window handles with the module to show the window state (open, closed). The window handles are of type <a href="http://amzn.to/2mCxxjU" target="_blank">HM-Sec-RHS</a>.
+
+## Further information
+* <a href="http://www.homematic.com/" target="_blank">homematic.com</a> - HomeMatic website 
+* <a href="https://www.homematic-inside.de/" target="_blank">homematic-inside.de</a> - Best HomeMatic community (blogs, tipps, addons,...)
+* <a href="https://www.homematic-forum.de/" target="_blank">homematic-forum.de</a> - Forum to get help
