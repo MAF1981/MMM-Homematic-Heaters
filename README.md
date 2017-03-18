@@ -189,10 +189,14 @@ If not set, the default is: <code>300000</code> (5 minutes)</td>
 Make sure that the XML-API addon is working fine. If you've setup the XML-API addon and your HomeMatic central control unit (CCU2) with default values, you should be able to see a list of all your connected devices by clicking the following URL:<br> <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a>
 
 ## Side notes
-The requests via the XML-API addon does not require a login! If your HomeMatic control central unit is accessible without special protection via the Internet, this can be a serious security issue!
-<p>What is the percentage in the mode? Example:<br>
+<ul>
+<li>The requests via the XML-API addon does not require a login! If your HomeMatic control central unit is accessible without special protection via the Internet, this can be a serious security issue!
+</li>
+<li>The XML-API does not currently support the following information: Temperature offset, window open detection, descaling, keylock and some more parameter</li>
+<li>What is the percentage in the mode? Example:<br>
 <img src="https://cloud.githubusercontent.com/assets/26480749/24070974/b20444bc-0bc7-11e7-8f7f-88a9cc1f64ef.png" height="30"/><br>
-It shows the current valve state of the device.</p>
+It shows the current valve state of the device.</li>
+</ul>
 
 ## Next steps
 I'm planning to implement my HomeMatic window handles with the module to show the window state (open, closed). The window handles are of type <a href="http://amzn.to/2mCxxjU" target="_blank">HM-Sec-RHS</a>.
