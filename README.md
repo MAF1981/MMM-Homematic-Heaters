@@ -3,18 +3,29 @@ A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermos
 According documentation, it should also work with devices of type HM-CC-RT-DN-BoM.
 
 ### The module displays the following information:
-
-* The name of the heater
-* The current temperature
-* The target temperature
-* The current mode
-* The fault reporting (i.e. low battery), if any
-
+<table width="100%" border="0">
+	<tbody>
+		<tr>
+			<td>
+<ul>
+<li>The name of the heater</li>
+<li>The current temperature</li>
+<li>The target temperature</li>
+<li>The current mode</li>
+<li>The fault reporting (i.e. low battery), if any</li>
+</ul>
 Supported languages are: English, Deutsch
+			</td>
+			<td>
+			<img src="https://cloud.githubusercontent.com/assets/26480749/24071185/4b4e2b02-0bcc-11e7-8b22-28a9d60bc402.jpg" border="0" height="200px">
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Screenshots
 
-<table width="100%">
+<table width="100%" border="0" style="border:0;">
 	<tbody>
 		<tr>
 			<td>
