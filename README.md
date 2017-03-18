@@ -181,3 +181,5 @@ I'm planning to implement my HomeMatic window handles with the module to show th
 * <a href="http://www.homematic.com/" target="_blank">homematic.com</a> - HomeMatic website 
 * <a href="https://www.homematic-inside.de/" target="_blank">homematic-inside.de</a> - Best HomeMatic community (blogs, tipps, addons,...)
 * <a href="https://www.homematic-forum.de/" target="_blank">homematic-forum.de</a> - Forum to get help
+* <a href="https://www.homematic-inside.de/software/download/item/homematic-skript" target="_blank">HomeMatic script documentation / specification</a>
+* <a href="https://www.homematic-inside.de/software/addons/item/xmlapi" target="_blank">XML-API section on homematic-inside.de</a>
