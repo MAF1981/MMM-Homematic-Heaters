@@ -190,3 +190,4 @@ I'm planning to implement my HomeMatic window handles with the module to show th
 * <a href="https://www.homematic-forum.de/" target="_blank">homematic-forum.de</a> - Forum to get help
 * <a href="https://www.homematic-inside.de/software/download/item/homematic-skript" target="_blank">HomeMatic script documentation / specification</a>
 * <a href="https://www.homematic-inside.de/software/addons/item/xmlapi" target="_blank">XML-API section on homematic-inside.de</a>
+*  <a href="https://wiki.fhem.de/wiki/HM-CC-RT-DN_Funk-Heizk%C3%B6rperthermostat" target="_blank">FHEM wiki for HM-CC-RT-DN</a> - All information about the device type (German only)
