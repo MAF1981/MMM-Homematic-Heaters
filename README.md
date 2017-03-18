@@ -81,6 +81,7 @@ Requires at least MM version: 2.1.0
 * <a href="https://github.com/jindw/xmldom" target="_blank" title="xmldom for node.js">xmldom</a><br/>The xmldom DOMParser and XMLSerializer must be installed for node.js
 * <a href="https://github.com/ashtuchkin/iconv-lite" target="_blank" title="iconv-lite for node.js">iconv-lite</a><br/>The iconv-lite is required to deal with the correct character encoding <code>iso-8859-1</code> (i.e.: German umlauts ä ü ö) after receiving data via the XML-API.
 * <a href="https://momentjs.com" target="_blank" title="moment.js">moment.js</a><br/>The moment.js library is required to parse the dates coming via XML-API (i.e. to display the end date if a device is in vacation mode). Because moment.js is even used by MagicMirror's default modules, you should already have it installed.
+* WiFi/Network - Your CCU2 and your Raspberry Pi has to be connected to your local network. The module communicates with the CCU2 by using HTTP GET-request to retrieve the information. Therfore, each device has to be known by the CCU2 as well.
 
 ## Installation
 In your terminal, go to your MagicMirror's Module folder:
