@@ -169,7 +169,7 @@ If not set, the default is: <code>300000</code> (5 minutes)</td>
 </table>
 
 ## Troubleshooting
-Make sure the the XML-API addon is working fine. If you setup the addon and your HomeMatic central control unit with default values, you should be able to see a list of all your connected devices by clicking the following URL: <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a>
+Make sure that the XML-API addon is working fine. If you've setup the XML-API addon and your HomeMatic central control unit (CCU2) with default values, you should be able to see a list of all your connected devices by clicking the following URL:<br> <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a>
 
 ## Side notes
 The requests via the XML-API addon does not require a login! If your HomeMatic control central unit is accessible without special protection via the Internet, this can be a serious security issue!
