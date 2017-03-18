@@ -64,9 +64,10 @@ Finally, how it looks like in German language:<p><img src="https://cloud.githubu
 The following dependencies are required and must be installed to be able to use this module:
 * <a href="https://github.com/MichMich/MagicMirror" target="_blank" title="MagicMirror2">MagigMirror<sup>2</sup></a><br/>
 Obviously yes... without the mirror even this module is useless :-)
-* <a href="https://github.com/hobbyquaker/XML-API" target="_blank" title="XML-API for CCU2">XML-API addon</a><br/>The XML-API addon must be installed on your Homematic central control unit (CCU1 / CCU2). 
+* <a href="https://github.com/hobbyquaker/XML-API" target="_blank" title="XML-API for CCU2">XML-API addon</a><br/><b>The XML-API addon must be installed on your Homematic central control unit (CCU1 / CCU2)</b>. 
 * <a href="https://github.com/jindw/xmldom" target="_blank" title="xmldom for node.js">xmldom</a><br/>The xmldom DOMParser and XMLSerializer must be installed for node.js
 * <a href="https://github.com/ashtuchkin/iconv-lite" target="_blank" title="iconv-lite for node.js">iconv-lite</a><br/>The iconv-lite is required to deal with the correct character encoding <code>iso-8859-1</code> (i.e.: German umlauts ä ü ö) after receiving data via the XML-API.
+* <a href="https://momentjs.com" target="_blank" title="moment.js">moment.js</a><br/>The moment.js library is required to parse the dates coming via XML-API (i.e. to display the end date if a device is in vacation mode). Because moment.js is even used by MagicMirror's default modules, you should already have it installed.
 
 ## Installation
 In your terminal, go to your MagicMirror's Module folder:
@@ -176,6 +177,9 @@ Make sure that the XML-API addon is working fine. If you've setup the XML-API ad
 
 ## Side notes
 The requests via the XML-API addon does not require a login! If your HomeMatic control central unit is accessible without special protection via the Internet, this can be a serious security issue!
+<p>What is the percentage in the mode? Example:<br>
+<img src="https://cloud.githubusercontent.com/assets/26480749/24070974/b20444bc-0bc7-11e7-8f7f-88a9cc1f64ef.png" height="30"/><br>
+It shows the current valve state of the device.</p>
 
 ## Next steps
 I'm planning to implement my HomeMatic window handles with the module to show the window state (open, closed). The window handles are of type <a href="http://amzn.to/2mCxxjU" target="_blank">HM-Sec-RHS</a>.
