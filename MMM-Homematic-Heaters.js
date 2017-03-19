@@ -193,9 +193,9 @@ Module.register("MMM-Homematic-Heaters",{
 				break;
 			case 2: 
 				modus = "PARTY"; //Urlaubsmodus
-				var urlaubsEnde = moment().set({'year': settingsArray["PARTY_STOP_YEAR"], 
-														'month': settingsArray["PARTY_STOP_MONTH"], 
-														'day': settingsArray["PARTY_STOP_DAY"]});
+				var urlaubsEnde = moment().set({'year': settingsArray["PARTY_STOP_YEAR"]["value"], 
+														'month': (settingsArray["PARTY_STOP_MONTH"]["value"] -1), 
+														'date': settingsArray["PARTY_STOP_DAY"]["value"]});
 						translatedMode = this.translate("RADIATOR_MODE_".concat(modus)) + " " + this.translate("HOLIDAY_MODE_UNTIL") + " ";
 						translatedMode = translatedMode + urlaubsEnde.format("ddd, MMM Do Y");
 				break;
@@ -237,7 +237,7 @@ Module.register("MMM-Homematic-Heaters",{
 	 * string if everything is fine.
 	 */
 	prepareFaultReporting: function(settingsArray) { 
-		var faultCode =  Number(settingsArray["FAULT_REPORTING"]["value"]);
+		var faultCode = Number(settingsArray["FAULT_REPORTING"]["value"]);
 		var errorMsg = "";
 		switch (faultCode){
 			case 1: 
@@ -257,8 +257,8 @@ Module.register("MMM-Homematic-Heaters",{
 				break;
 			case 6: 
 				errorMsg = this.translate("LOWBAT");
-				//Append the current battery state
-				errorMsg += " " + Number(parseFloat(settingsArray["BATTERY_STATE"]["value"]).toFixed(2)) + settingsArray["BATTERY_STATE"]["valueunit"]
+				//Append the current battery state just for information
+				errorMsg += " ";// + Number(parseFloat(settingsArray["BATTERY_STATE"]["value"]).toFixed(2)) + settingsArray["BATTERY_STATE"]["valueunit"]
 				break;
 			case 7:
 				errorMsg = this.translate("VALVE_ERROR_POSITION");
