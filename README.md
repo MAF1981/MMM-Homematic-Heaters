@@ -18,7 +18,7 @@ Supported languages are: English, Deutsch
 			</td>
 			<td>
 			<img src="https://cloud.githubusercontent.com/assets/26480749/24071459/8d6b75ac-0bd2-11e7-9685-9817bfea7f00.jpg" border="0" height="250px"><br>
-			<span style="font-size:8pt;">Picture: &copy; MAF1981, private</small></span>
+			<span style="font-size:8pt;">Picture: &copy; MAF1981, private</span>
 			</td>
 		</tr>
 	</tbody>
@@ -187,7 +187,9 @@ If not set, the default is: <code>300000</code> (5 minutes)</td>
 </table>
 
 ## Troubleshooting
-Make sure that the XML-API addon is working fine. If you've setup the XML-API addon and your HomeMatic central control unit (CCU2) with default values, you should be able to see a list of all your connected devices by clicking the following URL:<br> <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a>
+Make sure that the XML-API addon is working fine. If you've setup the XML-API addon and your HomeMatic central control unit (CCU2) with default values, you should be able to see a list of all your connected devices by clicking the following URL:<br> <a href="http://homematic-ccu2/config/xmlapi/devicelist.cgi" target="_blank">http://homematic-ccu2/config/xmlapi/devicelist.cgi</a><br>
+Is everything fine, it should look like:<br>
+<img src="https://cloud.githubusercontent.com/assets/26480749/24081489/198aa8ea-0cb5-11e7-93fb-dd43a14b1883.png" height="150"/>
 
 ## Side notes
 <ul>
