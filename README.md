@@ -195,6 +195,10 @@ The following properties can be configured:
             <td><b>Optional</b></code> - The update interval in milliseconds.<br/>
 If not set, the default is: <code>300000</code> (5 minutes)</td>
         </tr>
+	<tr>
+            <td><code>displayType</code></td>
+            <td><b>Optional</b></code> - Determines whether the individual thermostats are displayed as rows or as a table. Possible values: <code>lines</code> or <code>table</code> Default is <code>lines</code></td>
+        </tr>
 	</tbody>
 </table>
 
