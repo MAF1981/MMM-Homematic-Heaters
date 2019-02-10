@@ -165,6 +165,18 @@ The following properties can be configured:
            <td><code>showFaultReporting</code></td>
            <td>Whether to show or to hide any faults of the device (i.e.: Low battery warning). Default is <code>true</code></td>
           </tr>	
+          <tr>
+           <td><code>showHumidity</code></td>
+           <td>Whether to show or to hide the humidity. Default is <code>true</code></td>
+          </tr>	
+          <tr>
+           <td><code>precisionTemp</code></td>
+           <td>Decimal places for temperature values. Default is <code>2</code></td>
+          </tr>	
+          <tr>
+           <td><code>precisionHum</code></td>
+           <td>Decimal places for humidity values. Default is <code>0</code></td>
+          </tr>	
         </tbody>
       </table>
       </td>
