@@ -290,8 +290,8 @@ It shows the current valve state of the device.</li>
 ## Next steps
 I'm planning to implement my HomeMatic window handles with the module to show the window state (open, closed). The window handles are of type <a href="http://amzn.to/2mCxxjU" target="_blank">HM-Sec-RHS</a>.
 
-## tip
-The very good Magic Mirror Module <a href="https://github.com/Sickboy78/MMM-Homematic">MMM-Homematic</a> is available for displaying individual values (windows open or closed, energy consumption of washing machine, ...) or system variables.</br>
+## Notice
+There is a very good Magic Mirror Module <a href="https://github.com/Sickboy78/MMM-Homematic">MMM-Homematic</a> for displaying individual values (windows open or closed, energy consumption of washing machine, ...) or system variables.</br><br/>
 <img src="https://github.com/Sickboy78/MMM-Homematic/blob/master/screenshot.png" height="150"/>
 
 ## Further information
