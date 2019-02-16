@@ -1,12 +1,7 @@
-/* The errors displayed below the device information */
-.faultReporting {
-	color: #FF0000;
-	font-weight: bold;
-	font-size: smaller;
-	display: block;
-	line-height: .5;
-	margin-bottom: 15pt;
-}
+/* --------------------------------------------------------------------- */
+/* Style lines                                                           */
+/* --------------------------------------------------------------------- */
+
 /* The device container (covering deviceLabel, suffix, deviceActualTemperature, deviceSetTemperature */
 .deviceContainer {
 	color: #fff;
@@ -24,5 +19,86 @@
 	/*put your styles here*/
 }
 .deviceSetTemperature{
-	/*put your styles here*/	
+	/*put your styles here*/
 }
+
+/* The errors displayed below the device information */
+.faultReporting {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: smaller;
+	display: block;
+	line-height: .5;
+	margin-bottom: 15pt;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* Style table                                                           */
+/* --------------------------------------------------------------------- */
+
+.MMM-Homematic-Heaters td {
+	text-align: left;
+}
+
+.MMM-Homematic-Heaters th {
+	text-align: left;
+}
+
+tr.deviceContainer {
+	width: 100%;
+}
+/* The current mode in brackets, i.e.: (heizt mit 27%)*/
+td.deviceMode {
+	text-align: center;
+	width:150px;
+}
+td.deviceLabel {
+	width: 180px;
+}
+td.deviceActualTemperature {
+	text-align: right;
+	width: 100px;
+}
+td.deviceSetTemperature {
+	text-align: right;
+	width: 100px;
+}
+td.deviceSetHumidity {
+	text-align: right;
+	width: 100px;
+}
+
+/* The errors displayed below the device information */
+td.faultReporting {
+	width: 300px;
+}
+
+/* --------------------------------------------------------------------- */
+/* colors warnings                                                       */
+/* --------------------------------------------------------------------- */
+
+
+.MMM-Homematic-Heaters .red {
+	color: red;
+}
+
+.MMM-Homematic-Heaters .green {
+	color: green;
+}
+
+.MMM-Homematic-Heaters .blue {
+	color: blue;
+}
+
+.MMM-Homematic-Heaters .yellow {
+	color: yellow;
+}
+
+.MMM-Homematic-Heaters .white {
+	color: white;
+}
+
+
+
+
