@@ -2,6 +2,8 @@
 A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats of type: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b> and wall thermostats of type <b><a href="https://www.amazon.de/dp/B00H7UIMGA" target="_blank" title="">HM-TC-IT-WM-W-EU</a></b><br>
 According documentation, it should also work with devices of type HM-CC-RT-DN-BoM.
 
+from @spitzlberger extended by wall thermostats, style "table", humidity display, warnings, forming of numbers, ... (2019-02-16)
+
 ### The module displays the following information:
 <table width="100%" border="0">
 	<tbody>
