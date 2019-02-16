@@ -13,6 +13,7 @@
 	"HOLIDAY_MODE_UNTIL" : "till",
 	
 	/* RADIATOR MODES */
+	"RADIATOR_MODE" : "mode:",
 	"RADIATOR_MODE_AUTO" : "auto",
 	"RADIATOR_MODE_MANUAL" : "manually",
 	"RADIATOR_MODE_PARTY" : "Holiday mode",
@@ -20,5 +21,8 @@
 	
 	/* FAULT REPORTING */
 	"LOWBAT" : "Low battery!",
-	"COMMUNICATION_ERROR": "Communication error"
+	"COMMUNICATION_ERROR": "Communication error",
+	
+	/* UNITS */
+	"UNIT_HUM" : "hum"
 }
