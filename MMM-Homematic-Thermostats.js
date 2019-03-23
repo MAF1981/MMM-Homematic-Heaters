@@ -1,4 +1,4 @@
-Module.register("MMM-Homematic-Heaters",{
+Module.register("MMM-Homematic-Thermostats",{
 
     // Default module config.
     defaults: {
@@ -536,7 +536,7 @@ Module.register("MMM-Homematic-Heaters",{
 	
 	// Define required style-sheet scripts
 	getStyles: function() {
-		return ["MMM-Homematic-Heaters.css"];
+		return ["MMM-Homematic-Thermostats.css"];
 	},
 
 	// Define required dependency scripts
