@@ -103,7 +103,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone https://github.com/MAF1981/MMM-Homematic-Thermostats
+git clone https://github.com/spitzlbergerj/MMM-Homematic-Thermostats
 ````
 
 Configure the module in your `config.js` file as followed.
