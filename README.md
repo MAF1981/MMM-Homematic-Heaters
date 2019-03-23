@@ -1,4 +1,4 @@
-# MagicMirror<sup>2</sup> Module: MMM-Homematic-Heaters
+# MagicMirror<sup>2</sup> Module: MMM-Homematic-Thermostats
 A MagicMirror Module for your radio controlled Homematic (eQ-3) radiator thermostats of type: <b><a href="http://amzn.to/2nzhd4a" target="_blank" title="">HM-CC-RT-DN</a></b> and wall thermostats of type <b><a href="https://www.amazon.de/dp/B00H7UIMGA" target="_blank" title="">HM-TC-IT-WM-W-EU</a></b><br>
 According documentation, it should also work with devices of type HM-CC-RT-DN-BoM.
 
@@ -103,7 +103,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone https://github.com/MAF1981/MMM-Homematic-Heaters
+git clone https://github.com/MAF1981/MMM-Homematic-Thermostats
 ````
 
 Configure the module in your `config.js` file as followed.
@@ -114,8 +114,8 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 {
-	module: 'MMM-Homematic-Heaters',
-	header: 'Myhome: Heaters',
+	module: 'MMM-Homematic-Thermostats',
+	header: 'Myhome: Thermostats',
 	position: 'top_left', // This can be any of the regions.
 	config: {
 		ccu2IP: '127.0.0.1',
