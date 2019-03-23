@@ -37,11 +37,11 @@
 /* Style table                                                           */
 /* --------------------------------------------------------------------- */
 
-.MMM-Homematic-Heaters td {
+.MMM-Homematic-Thermostats td {
 	text-align: left;
 }
 
-.MMM-Homematic-Heaters th {
+.MMM-Homematic-Thermostats th {
 	text-align: left;
 }
 
@@ -79,23 +79,23 @@ td.faultReporting {
 /* --------------------------------------------------------------------- */
 
 
-.MMM-Homematic-Heaters .red {
+.MMM-Homematic-Thermostats .red {
 	color: red;
 }
 
-.MMM-Homematic-Heaters .green {
+.MMM-Homematic-Thermostats .green {
 	color: green;
 }
 
-.MMM-Homematic-Heaters .blue {
+.MMM-Homematic-Thermostats .blue {
 	color: blue;
 }
 
-.MMM-Homematic-Heaters .yellow {
+.MMM-Homematic-Thermostats .yellow {
 	color: yellow;
 }
 
-.MMM-Homematic-Heaters .white {
+.MMM-Homematic-Thermostats .white {
 	color: white;
 }
 
