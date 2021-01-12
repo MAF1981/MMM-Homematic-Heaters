@@ -104,6 +104,8 @@ cd ~/MagicMirror/modules
 Clone this repository:
 ````
 git clone https://github.com/spitzlbergerj/MMM-Homematic-Thermostats
+cd MMM-Homematic-Thermostats
+npm install xmldom
 ````
 
 Configure the module in your `config.js` file as followed.
