@@ -1,0 +1,104 @@
+/* --------------------------------------------------------------------- */
+/* Style lines                                                           */
+/* --------------------------------------------------------------------- */
+
+/* The device container (covering deviceLabel, suffix, deviceActualTemperature, deviceSetTemperature */
+.deviceContainer {
+	color: #fff;
+	display: block;
+}
+/* The current mode in brackets, i.e.: (heizt mit 27%)*/
+.deviceMode{
+	color: #BDBDBD;
+	font-size: smaller;
+}
+.deviceLabel {
+	/*put your styles here*/
+}
+.deviceActualTemperature{
+	/*put your styles here*/
+}
+.deviceSetTemperature{
+	/*put your styles here*/
+}
+
+/* The errors displayed below the device information */
+.faultReporting {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: smaller;
+	display: block;
+	line-height: .5;
+	margin-bottom: 15pt;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* Style table                                                           */
+/* --------------------------------------------------------------------- */
+
+.MMM-Homematic-Thermostats td {
+	text-align: left;
+}
+
+.MMM-Homematic-Thermostats th {
+	text-align: left;
+}
+
+tr.deviceContainer {
+	width: 100%;
+}
+/* The current mode in brackets, i.e.: (heizt mit 27%)*/
+td.deviceMode {
+	text-align: center;
+	width:150px;
+}
+td.deviceLabel {
+	width: 180px;
+}
+td.deviceActualTemperature {
+	text-align: right;
+	width: 100px;
+}
+td.deviceSetTemperature {
+	text-align: right;
+	width: 100px;
+}
+td.deviceSetHumidity {
+	text-align: right;
+	width: 100px;
+}
+
+/* The errors displayed below the device information */
+td.faultReporting {
+	width: 300px;
+}
+
+/* --------------------------------------------------------------------- */
+/* colors warnings                                                       */
+/* --------------------------------------------------------------------- */
+
+
+.MMM-Homematic-Thermostats .red {
+	color: red;
+}
+
+.MMM-Homematic-Thermostats .green {
+	color: green;
+}
+
+.MMM-Homematic-Thermostats .blue {
+	color: blue;
+}
+
+.MMM-Homematic-Thermostats .yellow {
+	color: yellow;
+}
+
+.MMM-Homematic-Thermostats .white {
+	color: white;
+}
+
+
+
+
