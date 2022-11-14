@@ -122,7 +122,7 @@ modules: [
 	config: {
 		ccu2IP: '127.0.0.1',
 		xmlapiURL: 'config/xmlapi',
-		updateInterval: 120000
+		updateInterval: 120000,
 		style: "table",
 		setTempInBrackets: false,
 		localeStr: 'de-DE',
